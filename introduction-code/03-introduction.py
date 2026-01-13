@@ -20,3 +20,34 @@ print(my_list + another_list)
 
 # pop is acutually cool because it is o(1) and can do stuff with stacks can use indexing
 print(my_list.pop())
+
+# numbers. int, float, double.
+
+x: int = 1
+y: float = 1.0
+z: float = 1.0  # float but more decimals
+
+# This entire video is just teaching basic math and its good we are engineeirngs
+
+xy: float = x * y
+xsquare: int = x**x
+# you can also do this which they didnt teach but is very important
+x = +1
+
+# Dictonaries. mutable unordered, no duplicates for keys. These rock for json like functions
+# and for database stuff. They are also 0(1) lookup which is nice
+
+my_dict: dict = {"key1": "value1", "key2": "value2"}
+print(my_dict["key1"])
+
+# you can also nest with list other dictionaries and sets and stuff.
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+
+# tuples are sick. They are immutable and great for functions and OOP
+
+t: tuple = ("one", 2, 3.5)
+print(t.count(2))
+print(t.index("one"))
+# This is video did not cover the most important part of tuples but I am sure it will be there at some point
