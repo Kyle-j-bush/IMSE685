@@ -50,4 +50,20 @@ print(my_dict.values())
 t: tuple = ("one", 2, 3.5)
 print(t.count(2))
 print(t.index("one"))
-# This is video did not cover the most important part of tuples but I am sure it will be there at some point
+# This is video did not cover the most important part of tuples but I am sure it will be there at some point'
+# tuples are great for functions    
+
+# sets are unordred and unique, they are usefull but def my least used type
+
+myset: set = set()
+myset.add(1)
+
+print(myset)
+
+myset.add(2)
+
+#Cannot add dup values nice to get only unique values. they are prop nice for something idk
+
+#Booleans are like as simple as possble. taht is just true or false :
+
+
